@@ -1,6 +1,6 @@
 def funcion_numeros():
     while True:
-        entrada = input("Ingrese números enteros o con decimales separados por comas: ")
+        entrada = input("Ingrese números separados por comas: ")
         
         try:
             numeros_texto = entrada.split(',') 
