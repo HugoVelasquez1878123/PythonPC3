@@ -4,8 +4,8 @@ def porcentaje_gasolina(fraction):
 
         if y == 0:
             raise ZeroDivisionError("El denominador no puede ser cero.")
-        if x < 0 or y <= 0:
-            raise ValueError("Los números deben ser enteros y X debe ser menor o igual a Y.")
+        if x is float or y is float:
+            raise ValueError("Los números deben ser enteros.")
         if x/y > 1:
             raise ValueError("Vuelva a ingresar el número")
 
