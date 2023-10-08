@@ -1,11 +1,9 @@
-import math
-
 class circulo:
     def __init__(self, radio):
         self.radio = radio
     
     def calculo_area(self):
-        area = math.pi * (self.radio ** 2)
+        area = 3.1416 * (self.radio ** 2)
         return area
 
 if __name__ == '__main__':
