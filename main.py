@@ -1,0 +1,8 @@
+import modulo_Ejercicio8
+
+numeros_aleatorios = modulo_Ejercicio8.generar_numeros_aleatorios()
+
+modulo_Ejercicio8.mostrar_lista(numeros_aleatorios)
+
+numeros_ordenados = modulo_Ejercicio8.ordenar_lista(numeros_aleatorios)
+modulo_Ejercicio8.mostrar_lista(numeros_ordenados)
