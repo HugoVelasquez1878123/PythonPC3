@@ -13,4 +13,4 @@ if __name__ == '__main__':
         area = circulo2.calculo_area()
         print(f"El área del círculo con radio {radio} es: {area}")
     except ValueError:
-        print("Error: Ingrese un número válido para el radio del círculo.")
+        print("Error: Ingrese un número válido para el radio del circulo")
